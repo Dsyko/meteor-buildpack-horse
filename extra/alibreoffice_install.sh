@@ -1,5 +1,6 @@
-#!/bin/sh
+#!/bin/bash
 
+echo "-----> Install LibreOffice: Beginning Libre Office Extras installation."
 set -e
 
 BUILD_DIR=$1
