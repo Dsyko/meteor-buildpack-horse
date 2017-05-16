@@ -2,7 +2,7 @@
 ############################################
 # Install ffmpeg
 ############################################
-echo "-----> Install ffmpeg"
+echo "-----> Install ffmpeg with an edit to test my sanity..."
 FFMPEG_BUILD_DIR=$1
 FFMPEG_VENDOR_DIR="vendor"
 FFMPEG_DOWNLOAD_URL="https://s3.amazonaws.com/torsh-talent/ffmpeg3.tar.gz"
