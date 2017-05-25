@@ -10,7 +10,7 @@ CACHE_DIR=$2
 DEB="$CACHE_DIR/wkhtmltopdf.deb"
 TS=`date +%s`
 
-WKHTMLTOPDF_DOWNLOAD_URL="http://download.gna.org/wkhtmltopdf/0.12/0.12.1/wkhtmltox-0.12.1_linux-trusty-amd64.deb"
+WKHTMLTOPDF_DOWNLOAD_URL="https://downloads.wkhtmltopdf.org/0.12/0.12.2.1/wkhtmltox-0.12.2.1_linux-trusty-amd64.deb"
 echo "-----> Downloading wkhtmltopdf: $WKHTMLTOPDF_DOWNLOAD_URL"
 curl -L --silent -o $DEB $WKHTMLTOPDF_DOWNLOAD_URL
 
