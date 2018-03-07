@@ -7,17 +7,17 @@ BUILD_DIR=$1
 CACHE_DIR=$2
 
 # config
-VERSION="5.0.2"
-MINOR_VERSION="5.0"
+VERSION="5.4.5"
+MINOR_VERSION="5.4"
 
 # LibreOffice Binaries URL
 FILE_NAME=libreoffice${VERSION}_x86-64.tar.gz
-BUILDPACK_LIBREOFFICE_PACKAGE=https://s3-eu-west-1.amazonaws.com/libreoffice-heroku-buildpack/${FILE_NAME}
+BUILDPACK_LIBREOFFICE_PACKAGE=https://s3.amazonaws.com/torsh-talent-build-assets/${FILE_NAME}
 ARCHIVE_NAME=opt/libreoffice${VERSION}
 
 # LibreOffice Dependencies URL
 DEPS_FILE_NAME=libreoffice${VERSION}_x86-64_deps.tar.gz
-DEPS_BUILDPACK_LIBREOFFICE_PACKAGE=https://s3-eu-west-1.amazonaws.com/libreoffice-heroku-buildpack/${DEPS_FILE_NAME}
+DEPS_BUILDPACK_LIBREOFFICE_PACKAGE=https://s3.amazonaws.com/torsh-talent-build-assets/${DEPS_FILE_NAME}
 DEPS_ARCHIVE_NAME=app/vendor/libreoffice/deps
 
 mkdir -p $CACHE_DIR
